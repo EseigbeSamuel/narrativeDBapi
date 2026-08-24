@@ -1,0 +1,6 @@
+@narrativeDBapi_HostAddress = http://localhost:5124
+
+GET {{narrativeDBapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
