@@ -1,0 +1,55 @@
+## .NET / Visual Studio / Rider .gitignore
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Build artifacts / logs
+*.log
+*.tlog
+*.pdb
+*.cache
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+# Rider/ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment/secrets
+*.env
+appsettings.Development.json
+appsettings.Local.json

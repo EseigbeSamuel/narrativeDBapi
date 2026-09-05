@@ -1,4 +1,9 @@
+using Scalar.AspNetCore;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -10,6 +15,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
@@ -32,6 +38,12 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
+app.MapScalarApiReference("/docs", options =>
+{
+    options.WithTitle("My API Documentation")
+           .ForceDarkMode();
+});
 
 app.Run();
 
