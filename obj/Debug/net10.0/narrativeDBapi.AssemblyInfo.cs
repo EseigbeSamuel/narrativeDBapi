@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("narrativeDBapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e65113ab22fe14f33e6690fc82331f691229f3c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec9d4b79c4d810c7cfb0904e480d7877e9d6807e")]
 [assembly: System.Reflection.AssemblyProductAttribute("narrativeDBapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("narrativeDBapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 namespace narrativeDBapi.modules.Users;
 
-public record Users
+public class Users
 {
     
 }
