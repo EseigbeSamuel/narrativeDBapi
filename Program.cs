@@ -39,11 +39,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapScalarApiReference("/docs", options =>
-{
-    options.WithTitle("My API Documentation")
-           .ForceDarkMode();
-});
+
 
 app.Run();
 
