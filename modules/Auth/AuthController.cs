@@ -4,7 +4,7 @@ namespace narrativeDBapi.modules.Auth;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AuthControllerController : ControllerBase
+public class AuthController : ControllerBase
 {
     [HttpGet]
     public IActionResult Get()

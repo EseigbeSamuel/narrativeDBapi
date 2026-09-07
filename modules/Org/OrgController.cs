@@ -4,7 +4,7 @@ namespace narrativeDBapi.modules.Org;
 
 [ApiController]
 [Route("api/[controller]")]
-public class OrgControllerController : ControllerBase
+public class OrgController : ControllerBase
 {
     [HttpGet]
     public IActionResult Get()
