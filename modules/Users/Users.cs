@@ -7,4 +7,6 @@ public class Users
     public string Email { get; set; }= string.Empty; 
      //public Teams Teams { get; set; } 
     public UserRole Role { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public DateTime UpdatedAt { get; set; } = new DateTime();
 }

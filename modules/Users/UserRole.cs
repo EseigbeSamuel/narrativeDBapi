@@ -2,5 +2,8 @@ namespace narrativeDBapi.modules.Users;
 
 public enum UserRole
 {
-    Owner, Admin, Dev, Writer 
+    Owner, 
+    Admin, 
+    Developer,
+    Writer 
 }
