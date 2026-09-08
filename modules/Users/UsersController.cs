@@ -16,12 +16,14 @@ public class UsersController : ControllerBase
                Id = 1,
                Name = "adam",
                Email = "adam@example.com",
+               Role= "Admin"
             },
             new Users
             {
                 Id = 2,
                 Name = "gabe",
                 Email = "gabe@example.com",
+                Role="Owner"
             },
 
         };
